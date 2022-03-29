@@ -1,0 +1,10 @@
+D:\Csharp_Exams\QLGV_Winform\QLGV_Winform\bin\Debug\QLGV_Winform.exe.config
+D:\Csharp_Exams\QLGV_Winform\QLGV_Winform\bin\Debug\QLGV_Winform.exe
+D:\Csharp_Exams\QLGV_Winform\QLGV_Winform\bin\Debug\QLGV_Winform.pdb
+D:\Csharp_Exams\QLGV_Winform\QLGV_Winform\obj\Debug\QLGV_Winform.csprojResolveAssemblyReference.cache
+D:\Csharp_Exams\QLGV_Winform\QLGV_Winform\obj\Debug\QLGV_Winform.Form1.resources
+D:\Csharp_Exams\QLGV_Winform\QLGV_Winform\obj\Debug\QLGV_Winform.Properties.Resources.resources
+D:\Csharp_Exams\QLGV_Winform\QLGV_Winform\obj\Debug\QLGV_Winform.csproj.GenerateResource.Cache
+D:\Csharp_Exams\QLGV_Winform\QLGV_Winform\obj\Debug\QLGV_Winform.exe
+D:\Csharp_Exams\QLGV_Winform\QLGV_Winform\obj\Debug\QLGV_Winform.pdb
+D:\Csharp_Exams\QLGV_Winform\QLGV_Winform\obj\Debug\QLGV_Winform.Form2.resources
