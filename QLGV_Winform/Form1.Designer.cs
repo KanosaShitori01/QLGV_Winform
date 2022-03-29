@@ -32,15 +32,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.cb_coso = new System.Windows.Forms.ComboBox();
             this.dataGV = new System.Windows.Forms.DataGridView();
+            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HoTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contextMenuTr = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.hiệnThôngTinChiTiếtCủaGiáoViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.xóaGiáoViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cb_donvidt = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HoTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MaGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGV)).BeginInit();
             this.contextMenuTr.SuspendLayout();
             this.SuspendLayout();
@@ -78,13 +78,32 @@
             this.dataGV.CellMouseUp += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGV_CellMouseUp);
             this.dataGV.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataGV_MouseClick);
             // 
+            // STT
+            // 
+            this.STT.HeaderText = "STT";
+            this.STT.Name = "STT";
+            this.STT.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HoTen
+            // 
+            this.HoTen.DataPropertyName = "HoTen";
+            this.HoTen.HeaderText = "Họ Và Tên Giáo Viên";
+            this.HoTen.MinimumWidth = 100;
+            this.HoTen.Name = "HoTen";
+            // 
+            // MaGV
+            // 
+            this.MaGV.DataPropertyName = "MaGV";
+            this.MaGV.HeaderText = "Mã GV";
+            this.MaGV.Name = "MaGV";
+            // 
             // contextMenuTr
             // 
             this.contextMenuTr.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.hiệnThôngTinChiTiếtCủaGiáoViênToolStripMenuItem,
             this.xóaGiáoViênToolStripMenuItem});
             this.contextMenuTr.Name = "contextMenuStrip1";
-            this.contextMenuTr.Size = new System.Drawing.Size(264, 70);
+            this.contextMenuTr.Size = new System.Drawing.Size(264, 48);
             // 
             // hiệnThôngTinChiTiếtCủaGiáoViênToolStripMenuItem
             // 
@@ -126,25 +145,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Thoát";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // STT
-            // 
-            this.STT.HeaderText = "STT";
-            this.STT.Name = "STT";
-            this.STT.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HoTen
-            // 
-            this.HoTen.DataPropertyName = "HoTen";
-            this.HoTen.HeaderText = "Họ Và Tên Giáo Viên";
-            this.HoTen.MinimumWidth = 100;
-            this.HoTen.Name = "HoTen";
-            // 
-            // MaGV
-            // 
-            this.MaGV.DataPropertyName = "MaGV";
-            this.MaGV.HeaderText = "Mã GV";
-            this.MaGV.Name = "MaGV";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 

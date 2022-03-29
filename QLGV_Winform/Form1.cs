@@ -67,7 +67,6 @@ namespace QLGV_Winform
             if (e.Button == MouseButtons.Right)
             {
                 dataGV.Rows[e.RowIndex].Selected = true;
-                dataGV.CurrentCell = dataGV.Rows[e.RowIndex].Cells[1];
                 contextMenuTr.Show(dataGV, e.Location);
                 contextMenuTr.Show(Cursor.Position);
             }
@@ -99,6 +98,11 @@ namespace QLGV_Winform
                 cs.commandQuerySQL(query, alert);
                 outputDataSQL();
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1.ActiveForm.Close();
         }
     }
 }
